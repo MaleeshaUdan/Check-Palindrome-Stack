@@ -36,6 +36,7 @@ The isFull method returns true if the stack is full and false otherwise. The isE
     }
 
 The push method adds an element to the top of the stack if the stack is not full. If the stack is full, the method outputs an error message.
+
     public void push(char x){
         if(isFull()==true){
             System.out.println("Stack is Overflowing");
@@ -47,6 +48,7 @@ The push method adds an element to the top of the stack if the stack is not full
     }
 
 The pop method removes and returns the element from the top of the stack if the stack is not empty. If the stack is empty, the method returns the character 'n'
+
     public char pop(){
         if(isEmpty()==true){
             return 'n';
