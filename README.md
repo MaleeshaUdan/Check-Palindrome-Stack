@@ -85,7 +85,9 @@ This Java program helps you determine whether a given string is a palindrome or 
 **Features**
 
 User-friendly interface for inputting strings to check for palindromes
+
 Utilizes the Stack data structure to efficiently check for palindromes
+
 Outputs the result of whether the string is a palindrome or not
 
 **Prerequisites**
